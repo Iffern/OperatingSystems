@@ -1,0 +1,80 @@
+--------------------------
+---Mala liczba prob (5)---
+Czas rzeczywisty: 0.030000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Srednia liczba prob (25)---
+---Dodanie 12 blokow pamieci---
+Czas rzeczywisty: 0.060000
+Czas systemowy: 0.030000
+Czas uzytkownika: 0.020000
+---Usuwanie blokow pamieci o roznym rozmiarze---
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Dodanie 13 blokow pamieci---
+Czas rzeczywisty: 0.070000
+Czas systemowy: 0.020000
+Czas uzytkownika: 0.020000
+---Usuwanie blokow pamieci o roznym rozmiarze---	
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Duza liczba prob (50)---
+Czas rzeczywisty: 0.260000
+Czas systemowy: 0.120000
+Czas uzytkownika: 0.080000
+---20 porownan plikow bardzo podobnych---
+Czas rzeczywisty: 0.100000
+Czas systemowy: 0.040000
+Czas uzytkownika: 0.020000
+---20 porownan plikow srednio podobnych---
+Czas rzeczywisty: 0.090000
+Czas systemowy: 0.040000
+Czas uzytkownika: 0.030000
+---20 porownan plikow malo podobnych---
+Czas rzeczywisty: 0.120000
+Czas systemowy: 0.030000
+Czas uzytkownika: 0.040000
+---Tworzenie tablic wskaznikow o roznym rozmiarze (od 5 do 1000000 komorek)
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+----------------------------
+

@@ -1,0 +1,11 @@
+1c1
+< ghghhhh
+---
+> ttttt
+5c5,6
+< qqqqqq
+\ No newline at end of file
+---
+> qqqqqq
+> iiiiii
+\ No newline at end of file

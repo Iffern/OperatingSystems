@@ -1,0 +1,245 @@
+--------------------------
+Komentarz do wynikow:
+Dla malej liczby prob czasy dla biblioteki statycznej i wspoldzielonej sa podobne, natomiast dla biblioteki ladowanej dynamicznie czas ten byl duzo wiekszy, prawdopodobnie wynikal z koniecznosci zaladowania biblioteki.
+Podobna sytuacja wystapila dla proby sredniej. Natomiast dla proby duzej wyniki podobne uzyskano dla biblioteki statycznej i ladowanej dynamicznie, znacznie wyzszy natomiast dla biblioteki wspoldzielonej.
+Dla biblioteki statycznej uzyskano podobne czasy porownywania plikow bardzo i srednio podobnych, nieco nizszy dla plikow malo podobnych.
+Dla biblioteki dynamicznej czasy we wszystkich przypadkach byly podobne.
+Dla biblioteki ladowanej dynamicznie uzyskano znacznie wyzszy czas dla plikow bardzo podobnych. Moglo to wynikac zarowno z koniecznosci ladowania biblioteki, jak i tego ze trzeba bylo porownac wieksza ilosc tekstu niz dla plikow srednio i malo podobnych.
+Niezaleznie od rodzaju biblioteki czas potrzebny na stworzenie tablicy byl zbyt maly, aby dalo sie go zmierzyc.
+--------------------------
+---Biblioteka statyczna---
+---Mala liczba prob (5)---
+Czas rzeczywisty: 0.030000
+Czas systemowy: 0.010000
+Czas uzytkownika: 0.010000
+---Srednia liczba prob (25)---
+---Dodanie 12 blokow pamieci---
+Czas rzeczywisty: 0.060000
+Czas systemowy: 0.020000
+Czas uzytkownika: 0.020000
+---Usuwanie blokow pamieci o roznym rozmiarze---
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Dodanie 13 blokow pamieci---
+Czas rzeczywisty: 0.060000
+Czas systemowy: 0.020000
+Czas uzytkownika: 0.020000
+---Usuwanie blokow pamieci o roznym rozmiarze---
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Duza liczba prob (50)---
+Czas rzeczywisty: 0.210000
+Czas systemowy: 0.090000
+Czas uzytkownika: 0.080000
+---20 porownan plikow bardzo podobnych---
+Czas rzeczywisty: 0.100000
+Czas systemowy: 0.040000
+Czas uzytkownika: 0.030000
+---20 porownan plikow srednio podobnych---
+Czas rzeczywisty: 0.100000
+Czas systemowy: 0.050000
+Czas uzytkownika: 0.030000
+---20 porownan plikow malo podobnych---
+Czas rzeczywisty: 0.080000
+Czas systemowy: 0.040000
+Czas uzytkownika: 0.030000
+---Tworzenie tablic wskaznikow o roznym rozmiarze (od 5 do 1000000 komorek)
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+--------------------------
+-Biblioteka wspoldzielona-
+---Mala liczba prob (5)---
+Czas rzeczywisty: 0.030000
+Czas systemowy: 0.010000
+Czas uzytkownika: 0.000000
+---Srednia liczba prob (25)---
+---Dodanie 12 blokow pamieci---
+Czas rzeczywisty: 0.070000
+Czas systemowy: 0.020000
+Czas uzytkownika: 0.020000
+---Usuwanie blokow pamieci o roznym rozmiarze---
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Dodanie 13 blokow pamieci---
+Czas rzeczywisty: 0.060000
+Czas systemowy: 0.030000
+Czas uzytkownika: 0.020000
+---Usuwanie blokow pamieci o roznym rozmiarze---
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Duza liczba prob (50)---
+Czas rzeczywisty: 0.730000
+Czas systemowy: 0.090000
+Czas uzytkownika: 0.110000
+---20 porownan plikow bardzo podobnych---
+Czas rzeczywisty: 0.110000
+Czas systemowy: 0.050000
+Czas uzytkownika: 0.020000
+---20 porownan plikow srednio podobnych---
+Czas rzeczywisty: 0.100000
+Czas systemowy: 0.050000
+Czas uzytkownika: 0.020000
+---20 porownan plikow malo podobnych---
+Czas rzeczywisty: 0.110000
+Czas systemowy: 0.050000
+Czas uzytkownika: 0.030000
+---Tworzenie tablic wskaznikow o roznym rozmiarze (od 5 do 1000000 komorek)
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---------------------------
+Biblioteka ladowana dynamicznie
+---Mala liczba prob (5)---
+Czas rzeczywisty: 0.450000
+Czas systemowy: 0.010000
+Czas uzytkownika: 0.000000
+---Srednia liczba prob (25)---
+---Dodanie 12 blokow pamieci---
+Czas rzeczywisty: 0.440000
+Czas systemowy: 0.040000
+Czas uzytkownika: 0.040000
+---Usuwanie blokow pamieci o roznym rozmiarze---
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Dodanie 13 blokow pamieci---
+Czas rzeczywisty: 0.060000
+Czas systemowy: 0.030000
+Czas uzytkownika: 0.020000
+---Usuwanie blokow pamieci o roznym rozmiarze---
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+---Duza liczba prob (50)---
+Czas rzeczywisty: 0.220000
+Czas systemowy: 0.110000
+Czas uzytkownika: 0.070000
+---20 porownan plikow bardzo podobnych---
+Czas rzeczywisty: 0.320000
+Czas systemowy: 0.050000
+Czas uzytkownika: 0.050000
+---20 porownan plikow srednio podobnych---
+Czas rzeczywisty: 0.110000
+Czas systemowy: 0.050000
+Czas uzytkownika: 0.020000
+---20 porownan plikow malo podobnych---
+Czas rzeczywisty: 0.090000
+Czas systemowy: 0.030000
+Czas uzytkownika: 0.030000
+---Tworzenie tablic wskaznikow o roznym rozmiarze (od 5 do 1000000 komorek)
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+Czas rzeczywisty: 0.000000
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.000000
+--------------------------
