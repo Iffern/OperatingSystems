@@ -1,2 +1,2 @@
 # OperatingSystems
-Kody na przedmiot Systemy Operacyjne
+Programy na przedmiot Systemy Operacyjne
