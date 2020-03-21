@@ -1,0 +1,188 @@
+--------------------------
+Komentarz do wynikow:
+Proces kopiowania za pomoca funkcji systemowych przebiegal wolniej w poczatkowo testowanych przypadkach,
+okazal sie jednak szybszy, poczynajac od testu na 50 000 plikow o dlugosci 4096.
+Proces sortowania przebiegal szybciej dla funkcji systemowych dla rekordow o dlugosci 1, dlugosci 512 (wieksza proba), dlugosci 1024 (mniejsza proba) oraz mniejszych prob dla dlugosci 4096 i 8192. W pozostalych przypadkach szybsze byly funkcje biblioteczne.
+Wnioski:
+Do kopiowania dlugich plikow lepiej uzywac funkcji systemowych, krotkich- bibliotecznych.
+Wnioski dla operacji we/wy nie sa tak oczywiste. Na pewno mozna stwierdzic, ze dla rekordow o dlugosci 1 oraz przy niewielkiej liczbie dlugich rekordow szybsze beda funkcje systemowe. 
+--------------------------
+Liczba rekordow: 80000
+Dlugosc rekordu: 1
+Kopiowanie (lib):
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.010000
+Sortowanie (lib):
+Czas uzytkownika: 1.440000
+Czas systemowy: 2.820000
+Sortowanie (sys):
+Czas uzytkownika: 0.870000
+Czas systemowy: 2.790000
+Kopiowanie (sys):
+Czas systemowy: 0.170000
+Czas uzytkownika: 0.030000
+--------------------------
+Liczba rekordow: 160000
+Dlugosc rekordu: 1
+Kopiowanie (lib):
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.010000
+Sortowanie (lib):
+Czas systemowy: 6.290000
+Czas uzytkownika: 3.080000
+Sortowanie (sys):
+Czas systemowy: 5.950000
+Czas uzytkownika: 1.890000
+Kopiowanie (sys):
+Czas systemowy: 0.350000
+Czas uzytkownika: 0.040000
+--------------------------
+Liczba rekordow: 80000
+Dlugosc rekordu: 4
+Kopiowanie (lib):
+Czas systemowy: 0.000000
+Czas uzytkownika: 0.010000
+Sortowanie (lib):
+Czas systemowy: 2.030000
+Czas uzytkownika: 1.220000
+Sortowanie (sys):
+Czas systemowy: 2.410000
+Czas uzytkownika: 0.950000
+Kopiowanie (sys):
+Czas systemowy: 0.170000
+Czas uzytkownika: 0.020000
+-------------------------
+Liczba rekordow: 160000
+Dlugosc rekordu: 4
+Kopiowanie (lib):
+Czas systemowy: 0.010000
+Czas uzytkownika: 0.020000
+Sorotwanie (lib):
+Czas systemowy: 4.320000
+Czas uzytkownika: 2.550000
+Sortowanie (sys):
+Czas systemowy: 5.020000
+Czas uzytkownika: 1.850000
+Kopiowanie (sys):
+Czas systemowy: 0.350000
+Czas uzytkownika: 0.030000
+-------------------------
+Liczba rekordow: 80000
+Dlugosc rekordu: 512
+Kopiowanie (lib):
+Czas systemowy: 0.130000
+Czas uzytkownika: 0.030000
+Sortowanie (lib):
+Czas systemowy: 2.920000
+Czas uzytkownika: 1.490000
+Sortowanie (sys):
+Czas systemowy: 3.130000
+Czas uzytkownika: 1.040000
+Kopiowanie (sys):
+Czas systemowy: 0.210000
+Czas uzytkownika: 0.020000
+-------------------------
+Liczba rekordow: 160000
+Dlugosc rekordu: 512
+Kopiowanie (lib):
+Czas systemowy: 0.180000
+Czas uzytkownika: 0.040000
+Sortowanie (lib):
+Czas systemowy: 6.510000
+Czas uzytkownika: 3.300000
+Sortowanie (sys):
+Czas systemowy: 6.040000
+Czas uzytkownika: 2.030000
+Kopiowanie (sys):
+Czas systemowy: 0.420000
+Czas uzytkownika: 0.050000
+-------------------------
+Liczba rekordow: 80000
+Dlugosc rekordu: 1024
+Kopiowanie (lib):
+Czas systemowy: 0.130000
+Czas uzytkownika: 0.030000
+Sortowanie (lib):
+Czas systemowy: 3.700000
+Czas uzytkownika: 1.820000
+Sortowanie (sys):
+Czas systemowy: 2.910000
+Czas uzytkownika: 0.930000
+Kopiowanie (sys):
+Czas systemowy: 0.260000
+Czas uzytkownika: 0.020000
+--------------------------
+Liczba rekordow: 160000
+Dlugosc rekordu: 1024
+Kopiowanie (lib):
+Czas systemowy: 0.920000
+Czas uzytkownika: 0.220000
+Sortowanie (lib):
+Czas systemowy: 7.810000
+Czas uzytkownika: 3.860000
+Sortowanie (sys):
+Czas systemowy: 8.380000
+Czas uzytkownika: 2.400000
+Kopiowanie (sys):
+Czas systemowy: 0.710000
+Czas uzytkownika: 0.040000
+-------------------------
+Liczba rekordow: 25000
+Dlugosc rekordu: 4096
+Kopiowanie (lib):
+Czas systemowy: 0.220000
+Czas uzytkownika: 0.050000
+Sortowanie (lib):
+Czas systemowy: 2.360000
+Czas uzytkownika: 0.840000
+Sortowanie (sys)
+Czas systemowy: 1.680000
+Czas uzytkownika: 0.390000
+Kopiowanie (sys):
+Czas systemowy: 0.440000
+Czas uzytkownika: 0.030000
+-------------------------
+Liczba rekordow: 50000
+Dlugosc rekordu: 4096
+Kopiowanie (lib):
+Czas systemowy: 1.410000
+Czas uzytkownika: 0.170000
+Sortowanie (lib):
+Czas systemowy: 8.580000
+Czas uzytkownika: 2.690000
+Sortowanie (sys):
+Czas systemowy: 8.590000
+Czas uzytkownika: 1.560000
+Kopiowanie (sys):
+Czas systemowy: 1.160000
+Czas uzytkownika: 0.000000
+------------------------
+Liczba rekordow: 25000
+Dlugosc rekordu: 8192
+Kopiowanie (lib):
+Czas systemowy: 1.180000
+Czas uzytkownika: 0.170000
+Sortowanie (lib):
+Czas systemowy: 6.860000
+Czas uzytkownika: 1.770000
+Sortowanie (sys):
+Czas systemowy: 5.500000
+Czas uzytkownika: 0.810000
+Kopiowanie (sys):
+Czas systemowy: 0.830000
+Czas uzytkownika: 0.000000
+------------------------
+Liczba rekordow: 15000
+Dlugosc rekordu: 8192
+Kopiowanie (lib):
+Czas systemowy: 0.730000
+Czas uzytkownika: 0.080000
+Sortowanie (lib):
+Czas systemowy: 1.890000
+Czas uzytkownika: 0.630000
+Sortowanie (sys):
+Czas systemowy: 3.150000
+Czas uzytkownika: 0.490000
+Kopiowanie (sys):
+Czas systemowy: 0.370000
+Czas uzytkownika: 0.000000
