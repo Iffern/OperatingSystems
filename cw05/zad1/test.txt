@@ -1,0 +1,4 @@
+cat makefile | grep main
+ls -l | grep main
+ls -l | grep makefile
+cat main.c | wc -l
