@@ -1,0 +1,96 @@
+Zadanie zostalo wykonane w najkrotszym czasie dla 4 watkow w wariancie block (powodem moze byc fakt, ze program wykonywany byl na maszynie wirtualnej z przydzielonymi 4 watkami).
+
+Dla kazdej liczby watkow najmniej efektywnym z wariantow byl sign, poniewaz wymaga on przejscia po calej tablicy dla kazdego z watkow.
+
+Liczba watkow: 1
+Wariant: sign
+Identyfiaktor watku: 139638120449792, czas spedzony na wykonaniu zadania: 4421 us
+Calkowity czas spedzony na wykonaniu zadania: 5697 us
+
+Liczba watkow: 1
+Wariant: block
+Identyfiaktor watku: 140028569638656, czas spedzony na wykonaniu zadania: 894 us
+Calkowity czas spedzony na wykonaniu zadania: 1380 us
+
+Liczba watkow: 1
+Wariant: interleaved
+Identyfiaktor watku: 140057682671360, czas spedzony na wykonaniu zadania: 884 us
+Calkowity czas spedzony na wykonaniu zadania: 1399 us
+
+Liczba watkow: 2
+Wariant: sign
+Identyfiaktor watku: 139668657702656, czas spedzony na wykonaniu zadania: 2009 us
+Identyfiaktor watku: 139668649309952, czas spedzony na wykonaniu zadania: 1595 us
+Calkowity czas spedzony na wykonaniu zadania: 7212 us
+
+Liczba watkow: 2
+Wariant: block
+Identyfiaktor watku: 140601443403520, czas spedzony na wykonaniu zadania: 745 us
+Identyfiaktor watku: 140601435010816, czas spedzony na wykonaniu zadania: 906 us
+Calkowity czas spedzony na wykonaniu zadania: 1549 us
+
+Liczba watkow: 2
+Wariant: interleaved
+Identyfiaktor watku: 140339542320896, czas spedzony na wykonaniu zadania: 1203 us
+Identyfiaktor watku: 140339533928192, czas spedzony na wykonaniu zadania: 1027 us
+Calkowity czas spedzony na wykonaniu zadania: 2070 us
+
+Liczba watkow: 4
+Wariant: sign
+Identyfiaktor watku: 139897614870272, czas spedzony na wykonaniu zadania: 2066 us
+Identyfiaktor watku: 139897606477568, czas spedzony na wykonaniu zadania: 1968 us
+Identyfiaktor watku: 139897598084864, czas spedzony na wykonaniu zadania: 1004 us
+Identyfiaktor watku: 139897589692160, czas spedzony na wykonaniu zadania: 818 us
+Calkowity czas spedzony na wykonaniu zadania: 3497 us
+
+Liczba watkow: 4
+Wariant: block
+Identyfiaktor watku: 139918299866880, czas spedzony na wykonaniu zadania: 208 us
+Identyfiaktor watku: 139918291474176, czas spedzony na wykonaniu zadania: 222 us
+Identyfiaktor watku: 139918283081472, czas spedzony na wykonaniu zadania: 175 us
+Identyfiaktor watku: 139918274688768, czas spedzony na wykonaniu zadania: 188 us
+Calkowity czas spedzony na wykonaniu zadania: 1325 us
+
+Liczba watkow: 4
+Wariant: interleaved
+Identyfiaktor watku: 140168226916096, czas spedzony na wykonaniu zadania: 281 us
+Identyfiaktor watku: 140168218523392, czas spedzony na wykonaniu zadania: 334 us
+Identyfiaktor watku: 140168210130688, czas spedzony na wykonaniu zadania: 170 us
+Identyfiaktor watku: 140168201737984, czas spedzony na wykonaniu zadania: 158 us
+Calkowity czas spedzony na wykonaniu zadania: 1175 us
+
+Liczba watkow: 8
+Wariant: sign
+Identyfiaktor watku: 139983551600384, czas spedzony na wykonaniu zadania: 821 us
+Identyfiaktor watku: 139983543207680, czas spedzony na wykonaniu zadania: 1382 us
+Identyfiaktor watku: 139983534814976, czas spedzony na wykonaniu zadania: 1472 us
+Identyfiaktor watku: 139983526422272, czas spedzony na wykonaniu zadania: 4404 us
+Identyfiaktor watku: 139983518029568, czas spedzony na wykonaniu zadania: 979 us
+Identyfiaktor watku: 139983509636864, czas spedzony na wykonaniu zadania: 772 us
+Identyfiaktor watku: 139983501244160, czas spedzony na wykonaniu zadania: 621 us
+Identyfiaktor watku: 139983492851456, czas spedzony na wykonaniu zadania: 691 us
+Calkowity czas spedzony na wykonaniu zadania: 6270 us
+
+Liczba watkow: 8
+Wariant: block
+Identyfiaktor watku: 139848716076800, czas spedzony na wykonaniu zadania: 108 us
+Identyfiaktor watku: 139848707684096, czas spedzony na wykonaniu zadania: 105 us
+Identyfiaktor watku: 139848699291392, czas spedzony na wykonaniu zadania: 261 us
+Identyfiaktor watku: 139848690898688, czas spedzony na wykonaniu zadania: 298 us
+Identyfiaktor watku: 139848682505984, czas spedzony na wykonaniu zadania: 242 us
+Identyfiaktor watku: 139848674113280, czas spedzony na wykonaniu zadania: 161 us
+Identyfiaktor watku: 139848665720576, czas spedzony na wykonaniu zadania: 89 us
+Identyfiaktor watku: 139848657327872, czas spedzony na wykonaniu zadania: 212 us
+Calkowity czas spedzony na wykonaniu zadania: 1311 us
+
+Liczba watkow: 8
+Wariant: interleaved
+Identyfiaktor watku: 140084523468544, czas spedzony na wykonaniu zadania: 296 us
+Identyfiaktor watku: 140084515075840, czas spedzony na wykonaniu zadania: 200 us
+Identyfiaktor watku: 140084506683136, czas spedzony na wykonaniu zadania: 87 us
+Identyfiaktor watku: 140084498290432, czas spedzony na wykonaniu zadania: 134 us
+Identyfiaktor watku: 140084489897728, czas spedzony na wykonaniu zadania: 322 us
+Identyfiaktor watku: 140084481505024, czas spedzony na wykonaniu zadania: 457 us
+Identyfiaktor watku: 140084473112320, czas spedzony na wykonaniu zadania: 375 us
+Identyfiaktor watku: 140084464719616, czas spedzony na wykonaniu zadania: 1788 us
+Calkowity czas spedzony na wykonaniu zadania: 4489 us
